@@ -22,8 +22,8 @@ import org.apache.kafka.common.serialization.StringSerializer;
 public class CSVKafkaProducer {
 
 	private static String KafkaBrokerEndpoint = "localhost:9092";
-    private static String KafkaTopic = "demo10";
-    private static String CsvFile = "churn-bigml-20.csv";
+    private static String KafkaTopic = "demo1";
+    private static String CsvFile = "churn-bigml-80.csv";
     
   
     private Producer<String, String> ProducerProperties(){
