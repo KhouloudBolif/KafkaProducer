@@ -30,7 +30,7 @@ public class producer {
         BufferedReader[] br = new BufferedReader[1];
 
         try {
-            br[0] = new BufferedReader(new FileReader("C:\\Users\\khoul\\Dropbox\\PC\\Downloads\\kafka-spark-streaming-integration-master\\kafka-spark-streaming-integration-master\\kafka\\src\\main\\resources\\churn-bigml-80.csv"));
+            br[0] = new BufferedReader(new FileReader("src/main/resources/churn-bigml-80.csv"));
             br[0].readLine(); // Ignorer l'en-tête du fichier CSV
 
             // Scheduled task to continuously send messages
